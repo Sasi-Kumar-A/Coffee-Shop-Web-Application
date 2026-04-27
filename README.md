@@ -28,13 +28,13 @@ UI/UX design skills.
 <div align="center">
 **Home Page**
   <hr>
-   <\div>
+</div>
 <img width="1858" height="906" alt="Coffee Shop" src="https://github.com/user-attachments/assets/06650010-c598-4527-9918-ba32c8a6c1db" />
 
 <div align="center">
 Gallery/Menu
   <hr>
-<\div>
+</div>
 <img width="1748" height="917" alt="Screenshot 2026-04-28 001404" src="https://github.com/user-attachments/assets/8ba856a5-fe73-487a-8107-65bc29508ac9" />
 
 ## 🚀 How to Run
