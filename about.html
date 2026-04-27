@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gradient Grounds Coffee</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #2b2b2b;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 24px 24px 48px ;
+    }
+
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+      color: #1f1f1f;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    /* Story */
+    .story {
+      max-width: 720px;
+      margin-bottom: 80px;
+    }
+
+    /* Vision */
+    .vision {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+
+    .vision img {
+      width: 100%;
+      border-radius: 14px;
+      object-fit: cover;
+    }
+
+    /* Journey */
+    .journey {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+
+    .journey img {
+      width: 100%;
+      border-radius: 14px;
+    }
+
+    /* Team */
+    .team {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .team img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 24px 0;
+    }
+
+    .team h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 900px) {
+      .vision,
+      .journey {
+        grid-template-columns: 1fr;
+      }
+    }
+
+/* Header */
+.site-header {
+  width: 100%;
+}
+
+/* Navigation bar */
+.nav {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #c46a2b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+nav a {
+  margin-left: 28px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+nav a.active {
+  color: #c46a2b;
+}
+
+/* Header Image */
+.header-image {
+  width: 100%;
+  height: 100px;
+  background-image: url("/mnt/data/b47fe605-ce2d-40b9-8ba8-978e4e50c6d2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav">
+    <div class="logo">
+      ☕
+    </div>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="Gallery.html">Menu/Gallery</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <div class="header-image"></div>
+</header>
+
+
+  <div class="container">
+
+    <!-- Our Story -->
+    <section class="story">
+      <h1>Our Story, Our Craft.</h1>
+      <p>
+        Gradient Grounds Coffee Co. began with a simple vision: to create a space where
+        exceptional coffee meets community and creativity. Our journey started in a small
+        roastery, fueled by a passion for ethically sourced beans and the art of the perfect
+        brew. We believe every cup tells a story, and ours is one of dedication, quality,
+        and connection.
+      </p>
+    </section>
+
+    <!-- Vision -->
+    <section class="vision">
+      <div>
+        <h2>Our Vision & Aim</h2>
+        <p>
+          Our aim is to inspire moments of joy and connection, one cup at a time. We strive
+          to be more than just a coffee shop; we are a community hub where creativity
+          flourishes, conversations thrive, and every visitor feels at home. We are
+          committed to sustainable practices, partnering with farmers who share our
+          values, and continuously innovating our craft to deliver unparalleled flavor.
+        </p>
+        <br />
+        <p>
+          We envision a future where Gradient Grounds is renowned for its exceptional
+          coffee, welcoming atmosphere, and positive impact on both local and global
+          communities. Our commitment extends from seed to cup, ensuring quality and
+          ethical responsibility at every step.
+        </p>
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Coffee Pour">
+    </section>
+
+    <!-- Journey -->
+    <section class="journey">
+      <div>
+        <h2>The Journey</h2>
+        <p>
+          Born from a dream in 2018, Gradient Grounds began as a small, experimental pop-up,
+          driven by a desire to share unique coffee experiences. Our founder, Alex Chen,
+          traveled extensively, learning from master roasters and discovering rare bean
+          varieties. The name "Gradient Grounds" reflects this journey of discovery and the
+          gradual refinement of our craft, evolving through various blends and brewing
+          techniques.
+        </p>
+        <br />
+        <p>
+          From a humble beginning, we grew, gathering a loyal following who appreciated our
+          dedication to quality and our innovative approach to flavor profiles. Each
+          milestone, from opening our first physical store to launching our signature
+          blends, has been a step forward in perfecting the Gradient Grounds experience.
+          Today, we continue to honor our roots while embracing the future of coffee.
+        </p>
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Coffee Farm">
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+      <h2>Meet Our Passionate Team</h2>
+      <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12" alt="Founder">
+      <h3>Sasi Kumar, Founder & Head Roaster</h3>
+      <p>
+        Sasi's love affair with coffee began over a decade ago, leading to a relentless
+        pursuit of the perfect bean and the most exquisite roast. With a background in
+        culinary arts and a deep understanding of flavor chemistry, Sasi personally
+        oversees the sourcing and roasting process, ensuring every batch meets Gradient
+        Grounds' high standards. Their vision and passion are the heart of our brand.
+      </p>
+    </section>
+
+  </div>
+
+</body>
+</html>
