@@ -1,5 +1,5 @@
-**                                  # Coffee-Shop-Web-Application**
-    **☕ Gradient Grounds Coffee Website**  
+# Coffee-Shop-Web-Application
+#☕ Gradient Grounds Coffee Website  
 This is a responsive multi-page coffee shop website built using HTML and CSS.  The project showcases a modern UI design for a coffee brand, including sections  like Home, About, Gallery/Menu, and Contact.
 
 ✨ Features:
@@ -25,11 +25,14 @@ This is a responsive multi-page coffee shop website built using HTML and CSS.  T
 🎯 Purpose:
 This project is developed for learning front-end development and showcasing 
 UI/UX design skills.
-
+<div align="center">
 **Home Page**
+   <\div>
 <img width="1858" height="906" alt="Coffee Shop" src="https://github.com/user-attachments/assets/06650010-c598-4527-9918-ba32c8a6c1db" />
 
+<div align="center">
 **Gallery/Menu**
+   <\div>
 <img width="1748" height="917" alt="Screenshot 2026-04-28 001404" src="https://github.com/user-attachments/assets/8ba856a5-fe73-487a-8107-65bc29508ac9" />
 
 ## 🚀 How to Run
